@@ -5,9 +5,6 @@ import java.util.Scanner;
 
 public class Menu {
 
-    int coffee = 120;//стоимость кофе
-    int chocolate = 150;//стоимость шоколада
-
     private static int readNumber() {
         Scanner sc = new Scanner(System.in);
         int read;
