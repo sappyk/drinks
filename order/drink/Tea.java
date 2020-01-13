@@ -52,7 +52,7 @@ public class Tea extends Drink {
 
     public static void costTea() {
         Tea pureTea = new Tea();
-        System.out.println("С вас: " + pureTea + " руб.");
+        System.out.println("С вас: " + pureTea.getTea() + " руб.");
        
     }
 }

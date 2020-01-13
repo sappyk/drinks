@@ -49,7 +49,7 @@ public class Coffee extends Drink{
         
     public static void costCoffee() {
         Coffee pureCoffee = new Coffee();
-        System.out.println("С вас: " + pureCoffee + " руб.");
+        System.out.println("С вас: " + pureCoffee.getCoffee() + " руб.");
        
     }
 }
